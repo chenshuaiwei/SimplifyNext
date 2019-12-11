@@ -1,0 +1,7 @@
+1, the random number generated is between 1000 to 9999, instead of 0000 to 9999, because I simply use Rnd() instead of string to generate the 4 digits.
+
+2, the guess number has to be 4 digits, cannot be null or less than 4 digits, otherwise crash.
+
+3, the guess number cannot begin with "0", otherwise crash.
+
+4, when the guess numbet has 2 repeative numbers, ig: ground truth "7055" vs guess number "5564", it shows "6N, 0P" instead of "2N, 0P", due to incorrect for loop.
